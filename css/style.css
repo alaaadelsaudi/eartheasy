@@ -1,0 +1,791 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.home {
+    background-image: url(../img/flash-sale-home-slider.jpg);
+    height: 95vh;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+
+nav {
+    background-color: #e9e9eb;
+    ;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.nav-img {
+    width: 50%;
+    display: flex;
+}
+
+.nav-img img {
+    transform: scaleY(1.3);
+}
+
+.nav-img ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.nav-img li {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.nav-img a {
+    color: #8aa479;
+    text-decoration: none;
+}
+
+.nav-img a:hover {
+    color: black;
+}
+
+.nav-icon {
+    color: #8aa479;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+.img-wav {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    overflow: hidden;
+
+}
+
+.over {
+    position: absolute;
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    color: white;
+
+}
+
+.over h3 {
+    margin: 10px;
+    font-size: 60px;
+}
+
+.over p {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.over button,
+.typ2 button {
+    background-color: #e9b534;
+    border-color: #e9b534;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.over button,
+.typ2 button:hover {
+    background-color: #977a32;
+}
+
+.paragraph {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.paragraph h3 {
+    color: rgb(3, 48, 3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.card-one {
+    width: 100%;
+    display: flex;
+
+}
+
+.card-one .img,
+.img2,
+.img3 {
+    width: 30%;
+    margin: 20px;
+    color: white;
+    height: 200px;
+
+}
+
+.card-one h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.typ {
+    font-size: 20px;
+    height: 100%;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.card-one .img {
+    background-image: url(../img/natural-cedar-planter-boxes-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-one .img2 {
+    background-image: url(../img/cedar-garden-sheds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-one .img3 {
+    background-image: url(../img/8x8-deer-proof-raised-garden-bed-kit-w__17282.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Top-Sellers,
+.Recently-Added {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.Top-Sellers h2,
+.Recently-Added h2,
+.Recent-Articles h2,
+.Follow h2 {
+    color: rgb(3, 48, 3);
+    margin-bottom: 70px;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    color: rgb(3, 48, 3);
+    font-size: 30px;
+}
+
+h2::after {
+    content: "";
+    width: 37%;
+    height: 2px;
+    background-color: rgb(147, 139, 139);
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
+
+h2::before {
+    content: "";
+    width: 37%;
+    height: 2px;
+    background-color: rgb(147, 139, 139);
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.card-tow {
+
+    display: flex;
+    margin-top: 20px;
+
+
+
+}
+
+.card {
+    position: relative;
+    width: 25%;
+    margin: 10px;
+
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card a,
+.card span {
+    display: block;
+    padding: 5px;
+}
+
+.card a {
+    color: #405440;
+}
+
+.card i {
+    color: gold;
+}
+
+.card span {
+    color: #8aa479;
+}
+
+.card del {
+    color: rgb(109, 107, 107);
+    margin-right: 15px;
+}
+
+.card button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    transform: translate(-74px, -280px);
+    background-color: rgba(233, 181, 52, .9);
+    color: white;
+    border: none;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.Recently-Added .card button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    transform: translate(-74px, -200px);
+    background-color: rgba(233, 181, 52, .9);
+    color: white;
+    border: none;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card:hover.card button {
+    opacity: 1;
+}
+
+.Recent-Articles {
+    width: 100%;
+    background-image: url(../img/textured-bground-brown.webp);
+    text-align: center;
+    padding-top: 30px;
+    height: 600px;
+}
+
+.slider {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.slider div h3 {
+    transform: translate(0px, 70px);
+}
+
+.text1 {
+    background-image: url(../img/hummingbird-banner-2-1024x641.jpg);
+    background-size: cover;
+    width: 33%;
+    margin: 20px;
+    height: 250px;
+    color: white;
+}
+
+.text2 {
+    background-image: url(../img/Planting-plan-banner2-1024x715.jpg);
+    background-size: cover;
+    width: 33%;
+    margin: 20px;
+    height: 250px;
+    color: white;
+}
+
+.text3 {
+    background-image: url(../img/microgreens-banner-1024x642.jpg);
+    background-size: cover;
+    width: 33%;
+    margin: 20px;
+    height: 250px;
+    color: white;
+}
+
+.text {
+    height: 100%;
+    background-color: #0a0a0a7e;
+}
+
+.text i {
+    transform: translate(90px, 10px);
+    font-size: 15px;
+    padding: 5px;
+}
+
+.Recent-Articles button {
+    width: 20%;
+    height: 50px;
+    color: #405440;
+    border: 1px solid #405440;
+    background-color: rgba(255, 255, 255, 0.151);
+
+}
+
+.Recent-Articles button:hover {
+    background-color: #405440;
+    color: white;
+}
+
+.Why {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.Why h2 {
+    color: rgb(3, 48, 3);
+}
+
+.Choose {
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.Choose div {
+    height: 300px;
+    width: 33%;
+    margin: 10px;
+}
+
+.Choose i {
+    font-size: 50px;
+    color: #8aa479;
+}
+
+.Choose h4 {
+    margin: 20px;
+    color: #343f2c;
+    font-size: 18px;
+}
+
+.Choose p {
+    margin: 20px;
+    color: #343f2c;
+
+}
+
+.Choose a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #8aa479;
+}
+
+.paper {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.paper img {
+    width: 100%;
+
+}
+
+.Our {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/our-story-image.jpg);
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.typ2 {
+    width: 50%;
+    margin: auto;
+    transform: translatey(200px);
+}
+
+.typ2 h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.typ2 p {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.Our::after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 50px;
+    background-image: url(../img/paper-edge-small.webp);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(180deg);
+
+}
+
+.imges {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo2 {
+    width: 20%;
+    height: 280px;
+    position: relative;
+}
+
+.photo2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo2 .overlayer {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 100%;
+    transition: all 2s;
+}
+
+.icons i {
+    padding: 10px;
+}
+
+.icons {
+    padding: 10px;
+    margin-left: 20px;
+    transform: translateY(70px);
+    font-size: 20px;
+
+
+}
+
+.overlayer p {
+    transform: translateY(70px);
+    width: 90%;
+    margin-left: 10px;
+}
+
+.overlayer:hover {
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    background-image: url(../img/textured-bg-brown-min.webp);
+    height: 500px;
+    ;
+    margin-top: 80px;
+}
+
+
+
+/* .paper2 {
+    width: 100%;
+    margin-top: 80px;
+    transform: translateY(-8rem);
+    position: relative;
+  
+} */
+
+.logo {
+
+    transform: translate(35rem, -3rem);
+    position: absolute;
+
+}
+
+.contaner {
+
+    display: flex;
+    width: 90%;
+
+
+}
+
+.contaner ul {
+    padding: 2rem;
+    font-size: 20px;
+    color: #343f2c;
+    width: 25%;
+    margin-top: 3rem;
+}
+
+.contaner li {
+    padding: 5px;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.contaner a {
+    text-decoration: none;
+    color: #8aa479;
+}
+
+.label {
+    margin-top: 5rem;
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.input input {
+    height: 40px;
+    padding: 5px;
+
+}
+
+.input button {
+    height: 40px;
+    border: none;
+    background-color: #e9b534;
+    width: 70px;
+}
+
+.icons {
+    display: flex;
+
+}
+
+.photo-icons {
+    height: 50px;
+    width: 30%;
+}
+
+.photo-icons img {
+    height: 100%;
+}
+
+.icons a {
+    width: 30%;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ico-icons i {
+    font-size: 30px;
+    color: gray;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-img ul {
+        opacity: 0;
+    }
+
+    .card-one .img,
+    .img2,
+    .img3 {
+        width: 100%;
+        margin: 20px;
+        color: white;
+        height: 200px;
+
+    }
+
+    .card-one,
+    .card-tow,
+    .slider {
+        width: 100%;
+        display: block
+    }
+
+    .card {
+        width: 100%;
+        height: auto
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        width: 100%;
+        height: 200px
+    }
+
+    .Why {
+        margin-top: 400px;
+        height: auto;
+    }
+
+    .Choose {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .why1 {
+        text-align: center;
+        width: 50%
+    }
+
+    .typ2 {
+        width: 50%;
+        margin: auto;
+        transform: translatey(50px);
+    }
+
+    .imges {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .photo2 {
+        width: 50%;
+        height: 280px;
+        position: relative;
+    }
+
+    .contaner {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .contaner ul {
+        width: 40%;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .icons {
+        display: block;
+
+    }
+}
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 520px) {
+    .why1 {
+        height: auto;
+        width: 50%;
+
+    }
+
+    .Choose {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+    }
+
+    .Choose p {
+        margin: 0px;
+        color: #343f2c;
+
+    }
+
+    .typ2 {
+        width: 50%;
+        margin: auto;
+        transform: translatey(20px);
+    }
+
+    .Our {
+        height: 500px;
+    }
+
+    .typ2 img {
+        width: 50%;
+    }
+
+    .Our h2 {
+        font-size: 40px;
+    }
+
+    .paper img {
+        opacity: 0;
+    }
+
+    .contaner {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .contaner ul {
+        width: 50%;
+    }
+
+    .contaner .label {
+        width: 50%;
+    }
+
+    footer {
+        height: 65rem;
+    }
+
+    .icons {
+        display: flex;
+        ;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .imges {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
